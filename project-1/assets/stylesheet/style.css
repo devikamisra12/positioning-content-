@@ -62,7 +62,7 @@ table {
 
 .body {
     background-color: gray;
-    font-family: 'Monoton', cursive;
+    /* font-family: 'Monoton', cursive; */
 
 }
 h1 {
@@ -83,7 +83,7 @@ h1 {
     font-size: 27px;
     font-weight: bold;
 }
-.div {
+.list {
     float: left;
     padding: 20px;
     width: 25%;
@@ -96,7 +96,7 @@ h1 {
     padding: 10px;
     width: 50%;
 }
-.div-right {
+.text-right {
     float: left;
     width: 25%;
 }
