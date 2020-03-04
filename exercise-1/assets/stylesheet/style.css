@@ -88,7 +88,7 @@ h2 , p {
 
 }
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 h2 {
@@ -106,16 +106,21 @@ h2 {
     background-color: #9F2D4F;
 }
 .text {
-    width: 600px;
+    width: 40%;
     display: inline-block;
     vertical-align: top;
     padding-top: 100px;
+    padding-right: 20px;
 }
 .image {
-    width: 500px;
+    width: 40%;
     display: inline-block;
     padding-top: 50px;
     padding-bottom: 20px;
+    padding-left: 40px;
+}
+img {
+    width: 100%;
 }
 /* Secondary */
 
