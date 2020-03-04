@@ -1,0 +1,126 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* general */
+*{
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1000px;
+    background-color: honeydew;
+    margin: 0 auto;
+}
+
+/* header */
+
+.body {
+    background-color: gray;
+    font-family: 'Monoton', cursive;
+
+}
+h1 {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* body */
+
+.image {
+    text-align: center;
+}
+
+.title {
+    padding: 20px;
+    font-size: 27px;
+    font-weight: bold;
+}
+.div {
+    float: left;
+    padding: 20px;
+    width: 25%;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 50px;
+}
+.cat {
+    float: left;
+    padding: 10px;
+    width: 50%;
+}
+.div-right {
+    float: left;
+    width: 25%;
+}
+.div-text {
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+.main-text {
+    text-align: left;
+    padding: 20px;
+    color: black;
+}
+p {
+    padding: 5px;
+}
+
+/* clearfix */
+.clearfix::before ,
+.clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
