@@ -1,0 +1,210 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+  CSS
+  */
+  /* header */
+
+  header {
+    background-color: bisque;
+    padding: 20px;
+}
+.logo {
+    float: left;
+    color: cadetblue;
+    font-size: 27px;
+}
+.nav-menu {
+    float: right;
+    color: cadetblue;
+    font-size: 19px;
+    
+}
+a {
+    text-decoration: none;
+    color: cadetblue;
+    margin-left: 15px;
+}
+/* CLEARFIX */
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table; 
+}
+.clearfix:after {
+    clear: both; 
+}
+  /* general */
+
+h2 , p {
+    font-family: 'Courgette', cursive;
+
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    color: cadetblue;
+}
+* {
+   box-sizing: border-box;
+}
+  /* primary */
+
+.primary {
+    background-color: #9F2D4F;
+}
+.text {
+    width: 600px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 100px;
+}
+.image {
+    width: 500px;
+    display: inline-block;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+/* Secondary */
+
+.secondary {
+    background-color: #89486A;
+    /* background-color: #984E52; */
+}
+.sec-text {
+    width: 500px;
+    float: right;
+    padding-top: 20px;
+}
+.sec-image {
+    width: 500px;
+    float: left;
+    padding-top: 20px;
+}
+
+/* footer */
+
+.copyr {
+    background-color: bisque;
+    padding: 20px;
+    text-align: center;
+}
+.copyr small {
+    color: cadetblue;
+    font-size: small;
+    font-weight: bold;
+    /* margin */
+}
+  /* h3 {
+    font-weight: bold;
+    padding: 10px;
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.logo {
+    float: left;
+}
+.nav {
+    float: right;
+    padding: 10px;
+}
+ .inline {
+    width: 600px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.heading {
+    font-size: large;
+    font-weight: bold;
+    padding: 20px;
+}
+.text {
+    /* padding: 20px; */
+    /* display: inline-block;
+    width: 500px;
+}
+.image {
+    display: inline-block;
+    width: 500px;
+}
+.cont {
+    width: 500px;
+    float: left;
+}
+.tt {
+    float: right;
+    /* display: inline-block; */
+/* }
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table; 
+}
+.clearfix:after {
+    clear: both; 
+}.home {
+    margin-right: 10px;
+    
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.logo {
+    margin-top: 20px;
+    display: inline-block;
+} */ 
