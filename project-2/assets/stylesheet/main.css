@@ -161,6 +161,7 @@ h2 {
     text-align: center;
     color: whitesmoke;
     font-size: 15px;
+    padding: 15px;
 }
 .box {
     width: 22%;
@@ -190,9 +191,16 @@ h2 {
 .secondary h2 {
     color: #5385C1;
 }
+.do {
+    text-align: center;
+    color: black;
+    /* padding-bottom: 50px; */
+    font-size: 15px;
+}
 .done {
     color: black;
     padding-bottom: 50px;
+    text-align: left;
 }
 .wrap {
     width: 45%;
